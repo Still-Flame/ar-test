@@ -13,7 +13,7 @@
         <a-asset-item id="pedestal" src="pedestal.glb"></a-asset-item>
         <a-asset-item id="avatarModel" src="Bin.glb"></a-asset-item>
         <a-asset-item id="Clippy" src="Clippy.glb"></a-asset-item>
-        <video id="video" src="rick_roll.mp4" loop="true" autoplay muted ></video>
+        <video id="video" src="rick_roll.mp4" loop="true" autoplay muted webkit-playsinline playsinline ></video>
       </a-assets>
 
       <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
@@ -21,7 +21,7 @@
         <a-plane colour="white" position="0 0 0" height="1" width="1" rotation="0 0 0"></a-plane>
         <!-- <a-gltf-model rotation="90 0 0 " position="0 0 0.4" scale="0.5 0.5 0.5" src="#pedestal"></a-gltf-model> -->
         <!-- <a-gltf-model rotation="90 0 0 " position="0 -0.1 0.8" scale="1 1 1" src="#avatarModel"></a-gltf-model> -->
-        <a-video src="#video" position="0 0.1 0.8" rotation="0 0 0" width="4" height="3" webkit-playsinline></a-video>
+        <a-video src="#video" position="0 0.1 0.8" rotation="0 0 0" width="4" height="3" ></a-video>
       </a-entity>
 
       <a-entity mindar-image-target="targetIndex: 1">
